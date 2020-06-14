@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat temps réel</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="box">
+
+      </div>
+      <form id="form_chat" action="/" method="post">
+        <input type="text" name="message" id="message" value="">
+        <input type="submit" value="Envoyer">
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="test.js" charset="utf-8"></script>
+  </body>
+</html>
